@@ -18,9 +18,9 @@ The HydroSignal device consists of basic components such as ESP32 NodeMCU, a ser
 
 ### Requirements
 
-- 1 ESP32 NodeMCU
-- 1 servo motor
-- Male-female patch cables
+- 1 ESP32 NodeMCU - [Link](https://www.adafruit.com/product/5310)
+- 1 Servo Motor - [Link](https://www.adafruit.com/product/169)
+- Male-female patch cables - [Link](https://www.adafruit.com/product/1953)
 
 ### Connections
 
