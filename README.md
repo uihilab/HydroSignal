@@ -6,14 +6,14 @@ HydroSignal is an open-source Internet of Things (IoT) information communication
 ## Description of HydroSignal
 HydroSignal aims to democratize hydrological monitoring by offering a low-cost, user-friendly platform. The platform integrates IoT devices with a web-based interface to facilitate real-time acquisition and presentation of data such as flood levels, turbidity, rainfall, and soil moisture. It supports various use cases, enhancing our understanding and management of water resources.
 <p align="center">
-  <img src="https://github.com/uihilab/HydroSignal_Project/docs/pictures/Architecture_HS.jpg" width="600">
+  <img src="./docs/pictures/Architecture_HS.jpg" width="600">
 </p>
 
 ## How to Use
 The HydroSignal device consists of basic components such as ESP32 NodeMCU, a servo motor, and male-female patch cables.
 
 <p align="center">
-  <img src="./drawing/Photos/hardware.png" width="300">
+  <img src="./docs/pictures/hardware.png" width="300">
 </p>
 
 ### Requirements
