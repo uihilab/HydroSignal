@@ -34,9 +34,12 @@ The connections for the HydroSignal device are as follows:
 - **Male-female patch cables:**
   - Used to ensure secure and stable connections
 
+
 ### Device Registration
 
-1. Access the HydroSignal web interface.
+Web application can be accessed on [https://hydroinformatics.uiowa.edu/lab/hydrosignal/](https://hydroinformatics.uiowa.edu/lab/hydrosignal/)
+
+1. Access the HydroSignal web interface. [Link](https://hydroinformatics.uiowa.edu/lab/hydrosignal/)
 2. Create a new account or log in.
 3. Navigate to the "Devices" section and create a new device registration with "Add New" link.
 <p align="center">
@@ -58,6 +61,7 @@ The connections for the HydroSignal device are as follows:
 <p align="center">     
   <img src="./docs/pictures/apikey.png" width="400">
 </p>
+
 ### Firmware Upload
 
 1. Download the provided code from this repository.
