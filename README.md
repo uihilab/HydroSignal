@@ -40,7 +40,7 @@ The connections for the HydroSignal device are as follows:
 Web application can be accessed on [https://hydroinformatics.uiowa.edu/lab/hydrosignal/](https://hydroinformatics.uiowa.edu/lab/hydrosignal/)
 
 1. Access the HydroSignal web interface. [Link](https://hydroinformatics.uiowa.edu/lab/hydrosignal/)
-2. Create a new account or log in.
+2. Create a [new account](https://hydroinformatics.uiowa.edu/lab/hydrosignal/authentication/sign-up) or [log in](https://hydroinformatics.uiowa.edu/lab/hydrosignal/authentication/sign-in).
 3. Navigate to the "Devices" section and create a new device registration with "Add New" link.
 <p align="center">
   <img src="./docs/pictures/addnew.png" width="400">
@@ -78,9 +78,12 @@ Web application can be accessed on [https://hydroinformatics.uiowa.edu/lab/hydro
 
 ### Paper Templates
 
-1. Select a template based on the value you want to monitor.
- - Template 1
- - Template 2
+1. Select a template based on the data type you want to monitor.
+ - Flood - [svg](./templates/box_flood_level.svg), [pdf](./templates/pdf/box_flood.pdf)
+ - Rainfall - [svg](./templates/box_rainfall.svg), [pdf](./templates/pdf/box_rainfall.pdf)
+ - Template Moisture & Temprature - [svg](./templates/box_moisture_temp.svg), [pdf](./templates/pdf/box_moist_temp.pdf)
+ - Turbidity - [svg](./templates/box_turbidity.svg), [pdf](./templates/pdf/box_turbidity.pdf)
+ - Blank - [svg](./templates/box_blank.svg), [pdf](./templates/pdf/box_blank.pdf)
 2. Print the template onto paper.
 3. Use the paper template to create a 3D model.
 
@@ -99,6 +102,6 @@ https://hydroinformatics.uiowa.edu/.
 
 ## References
 
-* Kaynak, B., Mermer, O., Sermet, Y., Demir, I. (2024). HydroSignal: Open-Source Internet of Things Information Communication 
+* Kaynak, B., Mermer, O., Sermet, Y., Demir, I. (2025). HydroSignal: Open-Source Internet of Things Information Communication 
 Platform for Hydrological Education and Outreach. EartharXiv preprint. https://doi.org/10.31223/X5R98C
  
