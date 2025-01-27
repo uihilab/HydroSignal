@@ -4,7 +4,7 @@ A step-by-step guide for K-12 educators to implement HydroSignal in classrooms.
 ---
 
 ## 📖 About This Guide  
-This guide simplifies classroom implementation. **For technical details (code upload, advanced configurations)**, refer to the [HydroSignal README](../README.md).  
+This guide simplifies classroom implementation. **For technical details (code upload, advanced configurations)**, refer to the [HydroSignal README](./README.md).  
 
 ---
 
@@ -20,24 +20,24 @@ This guide simplifies classroom implementation. **For technical details (code up
 ## Basic Setup Steps  
 
 ### 1. Preparing the Device  
-- Connect the servo motor to **GPIO Pin 12** on the ESP32 *(see [Connections in README](../README.md#connections))*.  
+- Connect the servo motor to **GPIO Pin 12** on the ESP32 *(see [Connections in README](./README.md#connections))*.  
 - Connect the ESP32 to your computer via USB cable.  
 
 ### 2. Website Registration  
 1. Visit [HydroSignal Web Interface](https://hydroinformatics.uiowa.edu/lab/hydrosignal/).  
 2. Create an account using **"Sign Up"**.  
-3. Navigate to **"Devices"** and click **"Add New"** *(details in [Device Registration](../README.md#device-registration))*.  
+3. Navigate to **"Devices"** and click **"Add New"** *(details in [Device Registration](./README.md#device-registration))*.  
 
 ### 3. Device Configuration  
 - **Name**: Assign a descriptive name (e.g., "Classroom Rain Gauge").  
 - **Data Source URL**: Enter your hydrological data service URL.  
 - **Value Ranges**: Set minimum/maximum data and servo angles.  
-- **API Key**: Save the generated key for firmware *(see [Firmware Upload](../README.md#firmware-upload))*.  
+- **API Key**: Save the generated key for firmware *(see [Firmware Upload](./README.md#firmware-upload))*.  
 
 ### 4. WiFi Setup  
 1. Power the device and connect to its WiFi network (via phone/computer).  
 2. Open a browser and enter the device’s IP address.  
-3. Configure your school’s WiFi credentials *(full steps in [WiFi Settings](../README.md#wifi-settings))*.  
+3. Configure your school’s WiFi credentials *(full steps in [WiFi Settings](./README.md#wifi-settings))*.  
 
 ---
 
@@ -47,9 +47,9 @@ This guide simplifies classroom implementation. **For technical details (code up
 > **Complete before class**  
 1. **Print Template**: Use [Rainfall Template](./templates/pdf/box_rainfall.pdf).  
 2. **Assemble Model**: Fold/glue the paper model (45-60 minutes).  
-3. **Program ESP32**: Upload firmware ([README instructions](../README.md#firmware-upload)).  
+3. **Program ESP32**: Upload firmware ([README instructions](./README.md#firmware-upload)).  
 4. **Install Servo**: Attach to the model (30 minutes).  
-5. **Configure WiFi**: Follow [WiFi Settings Guide](../README.md#wifi-settings).  
+5. **Configure WiFi**: Follow [WiFi Settings Guide](./README.md#wifi-settings).  
 
 ---
 
@@ -81,5 +81,5 @@ This guide simplifies classroom implementation. **For technical details (code up
 
 ## 🔧 Need Technical Help?  
 For advanced setup, troubleshooting, or code modifications:  
-- Consult the **[HydroSignal README](../README.md)** for detailed technical documentation.  
+- Consult the **[HydroSignal README](./README.md)** for detailed technical documentation.  
 - File an [issue](https://github.com/uihilab/HydroSignal/issues) or contact us.  
