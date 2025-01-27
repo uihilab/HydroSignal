@@ -9,29 +9,11 @@ HydroSignal aims to democratize hydrological monitoring by offering a low-cost, 
   <img src="./docs/pictures/Architecture_HS.jpg" width="600">
 </p>
 
-## For Educators: Quick Start Guide  
-**Designed for K-12 classrooms**, HydroSignal includes step-by-step guides for teachers and students. Follow these simplified steps or access the full **Teacher’s Guide** in the web interface:  
-
-### Hardware Setup  
-**Materials**: ESP32 NodeMCU, servo motor, cables (see [Requirements](#requirements)).  
-
-**Assembly**:  
-- Connect servo to ESP32’s **GPIO Pin 12**.  
-- Print and fold the [rain gauge template](./templates/pdf/box_rainfall.pdf).  
-
-### Web Interface Setup  
-- [Register your device](#device-registration) (e.g., “Classroom Rain Gauge”).  
-- Configure data ranges and save your API key.  
-
-### Classroom Implementation  
-- **Lesson Plan**: Interactive sessions on rainfall data interpretation.  
-- **Activities**: Real-time monitoring, needle movement analysis, and basic calculations.
-
-**For full instructions, pre-class preparation tips, and sample lesson plans**:  
-1. Log in to the [HydroSignal web interface](https://hydroinformatics.uiowa.edu/lab/hydrosignal/).  
-2. Click the **“Guide”** link in the top menu.
 
 ## How to Use
+
+### For Educators  
+A dedicated **[Teacher's Guide](TEACHER_GUIDE.md)** is available for K-12 classroom implementation, including lesson plans and setup workflows.  
 
 
 ### Requirements
